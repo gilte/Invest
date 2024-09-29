@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment</title>
+    <style>
+        /* Fonte moderna */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6b73ff, #000dff);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            flex-direction: column;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            background: linear-gradient(135deg, #ff6a00, #ee0979);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-size: 16px;
+            width: 100%;
+            max-width: 140px;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #ff8a00, #e60073);
+        }
+
+        /* Animação moderna do texto */
+        .moving-text {
+            font-size: 30px;
+            font-weight: bold;
+            color: #ffd700;
+            margin-bottom: 25px;
+            animation: move 600ms infinite alternate ease-in-out;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(25px);
+            }
+        }
+
+        /* Footer */
+        .footer {
+            font-size: 14px;
+            color: #ddd;
+            margin-top: 20px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                max-width: 90%;
+                padding: 20px;
+            }
+
+            button {
+                font-size: 14px;
+                max-width: 120px;
+            }
+
+            .moving-text {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                max-width: 100%;
+                padding: 15px;
+            }
+
+            button {
+                font-size: 12px;
+                max-width: 100px;
+            }
+
+            .moving-text {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="moving-text">DOUBLE YOUR MONEY IN 24 HOURS</div>
+
+    <div class="container">
+        <h1>Select the investment amount</h1>
+        <div class="button-container">
+            <a href="https://t.me/+SMRyxsVOjZhjMWMx"><button>$10</button></a>
+            <a href="https://t.me/+YD0fQajK8HE3Mjcx"><button>$20</button></a>
+            <a href="https://t.me/+H-Dn4X3sRIgzNDMx"><button>$30</button></a>
+            <a href="  https://t.me/+oq9kAKIx-o00Njlh   "><button>$40</button></a>
+            <a href="https://example.com/link5"><button>$50</button></a>
+            <a href="https://example.com/link6"><button>$60</button></a>
+            <a href="https://example.com/link7"><button>$70</button></a>
+            <a href="https://example.com/link8"><button>$80</button></a>
+            <a href="https://example.com/link9"><button>$90</button></a>
+            <a href="https://example.com/link10"><button>$100</button></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 All Rights Reserved.
+    </div>
+
+</body>
+</html>
